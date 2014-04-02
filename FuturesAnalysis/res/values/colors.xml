@@ -1,0 +1,12 @@
+<resources>
+
+    <color name="black_overlay">#66000000</color>
+	<color name="pink">#ffff6699</color>
+	<color name="transact_statistic_headtext">#ffff0000</color>
+	<color name="transact_statistic_maintext_caption">#ff000000</color>
+	<color name="transact_statistic_maintext_common">#ff666666</color>
+	<color name="transact_statistic_maintext_plus">#ffDD0000</color>
+	<color name="transact_statistic_maintext_minus">#ff00DD00</color>
+	<color name="transact_statistic_line_color_common">#ffefe2e7</color>
+	<color name="transact_statistic_line_color_below_caption">#ffff0000</color>
+</resources>

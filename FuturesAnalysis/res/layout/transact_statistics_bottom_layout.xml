@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" 
+        android:layout_width="fill_parent" android:layout_height="wrap_content"
+   		android:paddingLeft="10.0dip" android:paddingRight="10.0dip">
+	<RelativeLayout android:id="@+id/content" android:background="@drawable/transact_statistics_bg_bottom" 
+		android:layout_marginBottom="25.0dip" android:layout_width="fill_parent" 
+		android:layout_height="wrap_content"
+		 />
+
+</LinearLayout>

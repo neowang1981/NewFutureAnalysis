@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">FuturesAnalysis</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    
+    <!-- action bar使用 -->
+    <string name="main_title">期析</string>
+
+    <!-- application内部使用 -->
+    <string name="err_fatal">程序错误</string>
+	<string name="confirm">确认</string>
+    
+</resources>

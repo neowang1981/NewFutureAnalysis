@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    
+    
+    <!-- The PullToRefreshScrollView replaces a standard PullToRefreshScrollView widget. -->
+ 
+    <org.ezool.iqx.views.SwitchablePullToRefreshScrollView
+        xmlns:ptr="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/pull_refresh_scrollview"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        ptr:ptrAnimationStyle="flip"
+        ptr:ptrMode="both" >
+    </org.ezool.iqx.views.SwitchablePullToRefreshScrollView>
+    
+    <!-- 下面是一个等待界面，用来在第一次通信时使用 -->
+    
+    <RelativeLayout
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:id="@+id/ready_wait_layout">
+	    <ProgressBar android:id="@+id/progressbar_pink" 
+		    android:layout_width="wrap_content" android:layout_height="wrap_content" 
+		    android:indeterminateDrawable="@drawable/myprogressdrawable" 
+		    android:layout_centerInParent="true" />
+	</RelativeLayout>
+
+</FrameLayout>

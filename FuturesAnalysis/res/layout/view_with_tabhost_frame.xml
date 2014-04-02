@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+	<TabHost 
+	 	android:id="@android:id/tabhost" 
+	 	android:orientation="vertical"
+	    android:layout_width="fill_parent"
+	    android:layout_height="fill_parent">
+	    <RelativeLayout
+	    	android:layout_width="fill_parent"
+	    	android:layout_height="fill_parent">
+	    <TabWidget android:id="@android:id/tabs"
+		    android:layout_width="fill_parent"
+		    android:layout_height="wrap_content"
+		    android:layout_alignParentBottom="true">
+		</TabWidget>
+		<FrameLayout android:id="@android:id/tabcontent"
+		    android:layout_width="fill_parent"
+		    android:layout_height="fill_parent"
+		    android:layout_above="@android:id/tabs">
+	        <RelativeLayout android:id="@+id/tab_first"
+	            android:background="#AAAAAA"
+		    	android:layout_width="fill_parent"
+		    	android:layout_height="fill_parent">"
+		    </RelativeLayout>
+		    <RelativeLayout android:id="@+id/tab_second"
+		        android:background="#BBBBBB"
+		    	android:layout_width="fill_parent"
+		    	android:layout_height="fill_parent">
+		    </RelativeLayout>
+		    <RelativeLayout android:id="@+id/tab_third"
+		         android:background="#CCCCCC"
+		    	android:layout_width="fill_parent"
+		    	android:layout_height="fill_parent">"
+		    </RelativeLayout>
+		</FrameLayout>
+		</RelativeLayout>
+	</TabHost>
+	<RelativeLayout
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:id="@+id/ready_wait_layout">
+	    <ProgressBar android:id="@+id/progressbar_pink" 
+		    android:layout_width="wrap_content" android:layout_height="wrap_content" 
+		    android:indeterminateDrawable="@drawable/myprogressdrawable" 
+		    android:layout_centerInParent="true" />
+	</RelativeLayout>
+</FrameLayout>
